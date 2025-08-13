@@ -352,6 +352,15 @@ body {
     list-style: none;
 }
 
+.item-details a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.item-details a:hover {
+    text-decoration: underline;
+}
+
 .item-details li {
     padding: 5px 0;
     padding-left: 20px;
@@ -454,6 +463,18 @@ body {
     transform: translateY(-8px);
     box-shadow: 0 20px 50px rgba(102, 126, 234, 0.4);
     border-color: rgba(102, 126, 234, 0.5);
+}
+
+.project-links a {
+    color: #b0b0b0;
+    padding-right: 7px;
+    font-size: 1.1rem;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    color: #667eea;
 }
 
 .project-title {
