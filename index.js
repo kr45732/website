@@ -41,3 +41,11 @@ document.querySelectorAll('.navbar-nav a').forEach(link => {
         navbar.classList.remove("show")
     });
 });
+
+document.addEventListener('click', (e) => {
+    if (!navbar.contains(e.target) && navMenu.classList.contains('show')) {
+        navMenu.classList.remove('show');
+        hamburger.classList.remove('active');
+        navbar.classList.remove('show');
+    }
+});
